@@ -1,0 +1,28 @@
+.inputName label,.inputAmount label{
+    display: block;
+    font-weight: bold;
+    margin: 3px 0;
+}
+
+.inputName,.inputAmount{
+    display: inline-block;
+    margin:4px 2px 17px 71px;
+}
+
+.inputName input{
+    width: 270px;
+}
+.inputAmount{
+    width: 79px;
+}
+
+button{
+    margin-right: 7px;
+    padding: 6px 13px;
+    color: white;
+}
+
+.addingDiv{
+    border:1px solid gray;
+    margin: 13px 67px;
+}

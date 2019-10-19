@@ -1,0 +1,21 @@
+<div class = "inputName">
+    <label for="name">Name</label>
+    <input type="text" id="name" [(ngModel)] = "name">
+</div>
+
+<div class = "inputAmount">
+    <label for="amount">Amount</label>
+    <input type="text" id="amount" [(ngModel)] = "amount">
+</div>
+
+<div style="display: flex;margin:7px 0 11px 71px;">
+    <button style="background-color:green" (click) = "addButton()">Add</button>
+    <button style="background-color:red" (click) = "deleteButton()">Delete</button>
+    <button style="background-color:blue" (click) = "clearButton()">Clear</button>
+
+</div>
+<hr style="width: 508px;margin-left: 72px;">
+
+<div class = "addingDiv" *ngFor = "let dam of array">
+    <p>{{ dam.name }} ( {{ dam.amount }} )</p>
+</div>

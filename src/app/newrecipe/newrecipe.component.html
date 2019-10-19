@@ -1,0 +1,19 @@
+<div class = "newRecipeDiv">
+    <button>New Recipe</button>
+    <hr>
+</div>
+
+<div>
+    <h4></h4>
+    <p></p>
+</div>
+
+
+<div  *ngFor = "let dam of array" class = "twoDivs">
+    <h4 class = "boldText"> {{ dam.first }} </h4>
+    <p class = "simpleText"> {{ dam.second }} </p> 
+    <!-- <img src="{{ dam.src }}" alt="" class = "image"> -->
+
+    
+</div>
+<p class = "recipeItem">recipe-item works</p>

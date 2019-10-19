@@ -1,0 +1,33 @@
+.newRecipeDiv{
+    margin: 27px 0;
+    width: 100%;
+}
+button{
+    color:white;
+    background-color: green;
+    padding: 7px 17px;
+    margin:11px 0; 
+}
+
+.twoDivs{
+    border:1px solid gray;
+    border-radius: 4px;
+    width: 480px;
+}
+
+/* .boldText{
+    padding-left: 23px ;
+}
+.simpleText{
+    padding-left: 23px ;
+}
+.recipeItem{
+    padding-left: 63px;
+} */
+.image{
+    float: right;
+    margin: 7px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
