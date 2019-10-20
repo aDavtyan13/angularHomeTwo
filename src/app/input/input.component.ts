@@ -25,6 +25,11 @@ export class InputComponent implements OnInit {
   }
 
 
+  deleteButton(){
+    this.array.splice(this.array.length-1,1 );
+  }
+
+
   clearButton(){
     this.name = "";
     this.amount="";

@@ -1,5 +1,5 @@
 .newRecipeDiv{
-    margin: 27px 0;
+    margin: 27px 0 0;
     width: 100%;
 }
 button{
@@ -14,19 +14,16 @@ button{
     border-radius: 4px;
     width: 480px;
 }
-
-/* .boldText{
-    padding-left: 23px ;
+h4{
+    padding-left: 13px;
+    display: inline-block;
 }
-.simpleText{
-    padding-left: 23px ;
+p{
+    padding-left: 13px;
 }
-.recipeItem{
-    padding-left: 63px;
-} */
-.image{
+img{
     float: right;
-    margin: 7px;
+    margin: 5px;
     height: 100px;
     width: 100px;
     border-radius: 50%;
